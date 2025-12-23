@@ -13,9 +13,9 @@
 
 ## Technologies Used
 
-- **HTML5** – Semantic markup for structure.
-- **CSS3** – Styling, layout, and responsive design.
-- **JavaScript (ES6+)** – DOM manipulation, API fetch requests, and event handling.
+- **HTML** – Semantic markup for structure.
+- **CSS** – Styling, layout, and responsive design.
+- **JavaScript** – DOM manipulation, API fetch requests, and event handling.
 - **Free Dictionary API** – Fetch word data including definitions, synonyms, and pronunciation.
 
 ## Project Structure
