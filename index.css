@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(210, 36%, 96%);
+  color: hsl(0, 0%, 20%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+header h1 {
+  margin-bottom: 1em;
+  color: hsl(212, 72%, 59%);
+}
+
+form {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid hsl(212, 72%, 59%);
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: hsl(214, 64%, 48%);
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: hsl(212, 72%, 59%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+button:hover {
+  background-color: hsl(214, 64%, 48%);
+}
+
+#results {
+  width: 100%;
+  max-width: 600px;
+  background: hsl(0, 0%, 100%);
+  padding: 2.5em;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-word {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.result-pronunciation {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.result-definition {
+  margin-bottom: 10px;
+}
+
+.result-synonyms {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+.audio-button {
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: hsl(212, 72%, 59%);
+  color: hsl(0, 0%, 100%);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.audio-button:hover {
+  background-color: hsl(214, 64%, 48%);
+}
+
+.error {
+  color: hsl(0, 100%, 50%);
+  font-weight: bold;
+}
