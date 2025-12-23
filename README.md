@@ -30,7 +30,7 @@
 
 1. Fork & Clone the repository:
 
-fork & git clone 2. Open index.html in your web browser.
+2. Open index.html in your web browser.
 
 3. Type a word into the search bar and click Search.
 
